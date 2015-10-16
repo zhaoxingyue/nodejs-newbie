@@ -25,6 +25,46 @@
 ## 安装nodejs
 
 - 使用nvm安装多个版本（0.10.38必须装，其他自便）
+
+> nvm  是nodejs version manager的缩写，即node版本管理工具，使用nvm能下载任意版本的nodejs
+
+下载nvm，如果你使用git：
+
+...
+git clone https://github.com/creationix/nvm.git ~/.nvm && cd ~/.nvm && git checkout `git describe --abbrev=0 --tags`
+...
+
+下载完后：
+
+...
+source ~/.nvm/nvm.sh
+...
+这样你就能使用nvm 进行下载nodejs了，例如下载nodejs的稳定版本v0.12.5,输入以下命令：
+
+...
+nvm install v0.12.5
+...
+
+> 需要注意的是每次打开终端的时候并不能直接使用nvm,需要以下命令：
+
+...
+source ~/.nvm/nvm.sh
+...
+
+同时使用nvm能查看已安装的版本,使用以下命令:
+
+...
+nvm ls 
+...
+
+切换到想使用的某一个版本，例如切换到v0.12.5：
+
+...
+nvm use v0.12.5
+...
+
+
+
 - 使用nrm切换源
 
 ## Tips
