@@ -26,7 +26,7 @@
 
 - 使用nvm安装多个版本（0.10.38必须装，其他自便）
 
-> nvm  是nodejs version manager的缩写，即node版本管理工具，使用nvm能下载任意版本的nodejs
+ nvm  是nodejs version manager的缩写，即node版本管理工具，使用nvm能下载任意版本的nodejs
 
 下载nvm，如果你使用git：
 
@@ -63,10 +63,24 @@ nvm ls
 ```
 nvm use v0.12.5
 ```
+查看当前的所有版本
 
-
+```
+nvm ls-remote
+```
 
 - 使用nrm切换源
+
+nrm 是源管理器，用于切换NPM源，nrm能快速的通过命令切换，省去了手工切换的繁琐：
+如下命令是查看NPM源：
+```
+nrm ls
+```
+显示如下源：
+
+![](home/zxy/图片/1.png)
+
+切换源
 
 ## Tips
 
