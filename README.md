@@ -78,9 +78,13 @@ nrm ls
 ```
 显示如下源：
 
-![](home/zxy/图片/1.png)
+![](pic/zxy.png)
 
-切换源
+切换源使用：
+
+```
+nrm use 源名称
+``` 
 
 ## Tips
 
